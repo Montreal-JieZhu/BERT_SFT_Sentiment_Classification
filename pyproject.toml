@@ -1,0 +1,13 @@
+[project]
+name = "bert-sft-sentiment-classification"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "datasets>=4.2.0",
+    "evaluate>=0.4.6",
+    "numpy>=2.3.4",
+    "torch>=2.9.0",
+    "transformers>=4.57.1",
+]
